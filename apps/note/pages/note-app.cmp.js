@@ -10,7 +10,6 @@ import noteAdd from '../cmps/add-note.cmp.js'
 export default {
     template: `
     <section class="note-app-page">
-        <h1>hello</h1>
             <note-filter @filter="filter"/>
             <hr />
             <note-add @addNote="addNote"/>
